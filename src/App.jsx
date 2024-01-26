@@ -22,7 +22,7 @@ function App() {
         delay: 0.3,
         stagger: 0.5,
       }).to("#intro-slider", {
-        xPercent: 100,
+        xPercent: -100,
         duration: 1.3,
         delay: 0.3,
       }).from("#welcome", {
